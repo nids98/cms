@@ -1,0 +1,82 @@
+{
+  "template": {
+    "name":  "",
+    "type": "",
+    "custom_fields": [
+      {
+        "field_name": "city_id",
+        "field_display_name": "City ID"
+      },
+      {
+        "field_name": "city_id",
+        "field_display_name": "City ID"
+      }
+    ],
+    "sections": [
+      {
+        "type":,
+        "name":"faq",
+        "title":"FAQ",
+        "data": {
+          "fields": [
+            {
+              "field_name": "Question",
+              "Field_id": 1,
+              "field_input_type": "text",
+              "hasChildren": false,
+              "isRequired": true
+            },
+            {
+              "field_name": "cta",
+              "Field_id": 2,
+              "field_input_type": "none",
+              "hasChildren": true,
+              "isRequired": true,
+              "children": {
+                "fields": [
+                  {
+                    "field_name": "title",
+                    "Field_id": 1,
+                    "field_input_type": "text",
+                    "hasChildren": false
+                  },
+                  {
+                    "field_name": "url",
+                    "Field_id": 1,
+                    "field_input_type": "text",
+                    "hasChildren": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type":,
+        "name":,
+        "title":,
+        "data": {
+          "fields": [
+            {
+              "field_name": "field_display_name",
+              "field_name1": "Ans"
+            }
+          ,
+            {
+              "field_name": "field_display_name",
+              "field_name1": "Ans"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  "introduction": ["headline", "text"],
+  "faq": ["question", "answer"],
+  "tipps": ["headline", "title", "subtitle", "text", "cta-title", "cta-url"],
+  "Regional Overview": ["type", "title", "content"],
+  "zoom": 1
+
+}
+}

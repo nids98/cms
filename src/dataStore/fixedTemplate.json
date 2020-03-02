@@ -1,0 +1,170 @@
+{
+  "name": "seo_fixed_template",
+  "type": "fixed",
+  "custom_section": [
+    {
+      "type": "fixed",
+      "name": "map",
+      "title": "Map",
+      "fields": [
+          {
+            "field_name": "zoom",
+            "Field_id": 1,
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": false,
+            "value": ""
+          }
+      ]
+    }
+  ],
+  "section": [
+    {
+      "type": "fixed",
+      "name": "introduction",
+      "title": "Introduction",
+      "allowMultipleSubsection": false,
+      "fields": [
+          {
+            "field_id": 1,
+            "field_name": "headline",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 2,
+            "field_name": "text",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          }
+      ]
+    },
+    {
+      "type": "fixed",
+      "name": "faq",
+      "title": "FAQ",
+      "allowMultipleSubsection": true,
+      "fields": [
+          {
+            "field_id": 1,
+            "field_name": "question",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 2,
+            "field_name": "answer",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          }
+      ]
+    },
+    {
+      "type": "fixed",
+      "name": "tipps",
+      "title": "Tipps",
+      "allowMultipleSubsection": true,
+      "fields": [
+          {
+            "field_id": 1,
+            "field_name": "headline",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 2,
+            "field_name": "title",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 3,
+            "field_name": "subtitle",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 4,
+            "field_name": "text",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 5,
+            "field_name": "cta",
+            "field_input_type": "text ",
+            "hasChildren": true,
+            "isRequired": true,
+            "children": {
+              "allowMultipleSubsection": false,
+              "fields": [
+                {
+                  "field_name": "title",
+                  "field_id": 1,
+                  "field_input_type": "text",
+                  "hasChildren": false,
+                  "value": ""
+                },
+                {
+                  "field_name": "url",
+                  "field_id": 2,
+                  "field_input_type": "text",
+                  "hasChildren": false,
+                  "value": ""
+                }
+              ]
+            }
+          }
+      ]
+
+    },
+    {
+      "type": "fixed",
+      "name": "regional overview",
+      "title": "Regional Overview",
+      "allowMultipleSubsection": true,
+      "fields": [
+          {
+            "field_id": 1,
+            "field_name": "type",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 2,
+            "field_name": "title",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          },
+          {
+            "field_id": 3,
+            "field_name": "content",
+            "field_input_type": "text",
+            "hasChildren": false,
+            "isRequired": true,
+            "value": ""
+          }
+        ]
+    }
+  ]
+}

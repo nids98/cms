@@ -1,0 +1,88 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "A",
+      "type": "a",
+      "description": "a",
+      "endpoint": "a"
+    },
+    {
+      "id": 2,
+      "name": "b",
+      "type": "b",
+      "description": "b",
+      "endpoint": "b"
+    },
+    {
+      "id": 3,
+      "name": "C",
+      "type": "c",
+      "description": "c",
+      "endpoint": "c"
+    },
+    {
+      "id": 4,
+      "name": "d",
+      "type": "d",
+      "description": "d",
+      "endpoint": "d"
+    },
+    {
+      "id": 5,
+      "name": "E",
+      "type": "e",
+      "description": "e",
+      "endpoint": "e"
+    },
+    {
+      "id": 6,
+      "name": "f",
+      "type": "f",
+      "description": "f",
+      "endpoint": "f"
+    },
+    {
+      "id": 7,
+      "name": "g",
+      "type": "g",
+      "description": "g",
+      "endpoint": "g"
+    },
+    {
+      "id": 8,
+      "name": "h",
+      "type": "h",
+      "description": "h",
+      "endpoint": "h"
+    },
+    {
+      "id": 9,
+      "name": "i",
+      "type": "i",
+      "description": "i",
+      "endpoint": "i"
+    },
+    {
+      "id": 10,
+      "name": "j",
+      "type": "j",
+      "description": "j",
+      "endpoint": "j"
+    },
+    {
+      "id": 11,
+      "name": "k",
+      "type": "k",
+      "description": "k",
+      "endpoint": "k"
+    },
+    {
+      "id": 12,
+      "name": "l",
+      "type": "l",
+      "description": "l",
+      "endpoint": "l"
+    }
+  ]
+}

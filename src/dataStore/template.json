@@ -1,0 +1,10 @@
+{
+    "template": {
+        "introduction": ["headline", "text"],
+        "faq": ["question", "answer"],
+        "tipps": ["headline", "title", "subtitle", "text", "cta-title", "cta-url"],
+        "Regional Overview": ["type", "title", "content"],
+        "zoom": 1
+
+    }
+}
